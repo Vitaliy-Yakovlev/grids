@@ -1,11 +1,12 @@
 import s from './Posts.module.css';
+import kitten from '../../../img/picture_1.png';
 
 const Posts = ({}) => {
   return (
     <ul className={s.posts}>
       <li className={s.post}>
         <a href="#">
-          <img src="./src/img/picture_1.png" alt="kitten" className={s.postImg} />
+          <img src={kitten} alt="kitten" className={s.postImg} />
           <div className={s.overlay}>
             <h2 className={`${s.postTitle} ${s.subTitle}`}>
               Коти та їхні чудові навички: від полювання до загадкових здібностей
