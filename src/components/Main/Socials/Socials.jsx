@@ -1,46 +1,19 @@
 import s from './Socials.module.css';
+import data_socials from '../../../data/data.json';
 
 const Socials = ({}) => {
   return (
-    <div class={s.socials}>
-      <h2 class={`${s.socialsTitle} ${s.title}`}>Соцмережі</h2>
-      <ul class={s.socialsList}>
-        <li class={s.socialsItem}>
-          <a href="#" class={s.socialLink}>
-            <img src="/img/instagram.png" alt="instagram" class={s.socialIcon} />
-            <p class={s.socialSubscripers}>230.000</p>
-          </a>
-        </li>
-        <li class={s.socialsItem}>
-          <a href="#" class={s.socialLink}>
-            <img src="/img/facebook.png" alt="facebook" class={s.socialIcon} />
-            <p class={s.socialSubscripers}>230.000</p>
-          </a>
-        </li>
-        <li class={s.socialsItem}>
-          <a href="#" class={s.socialLink}>
-            <img src="/img/youtube.png" alt="youtube" class={s.socialIcon} />
-            <p class={s.socialSubscripers}>230.000</p>
-          </a>
-        </li>
-        <li class={s.socialsItem}>
-          <a href="#" class={s.socialLink}>
-            <img src="/img/tiktok.png" alt="tiktok" class={s.socialIcon} />
-            <p class={s.socialSubscripers}>230.000</p>
-          </a>
-        </li>
-        <li class={s.socialsItem}>
-          <a href="#" class={s.socialLink}>
-            <img src="/img/github.png" alt="github" class={s.socialIcon} />
-            <p class={s.socialSubscripers}>230.000</p>
-          </a>
-        </li>
-        <li class={s.socialsItem}>
-          <a href="#" class={s.socialLink}>
-            <img src="/img/twitter.png" alt="twitter" class={s.socialIcon} />
-            <p class={s.socialSubscripers}>230.000</p>
-          </a>
-        </li>
+    <div className={s.socials}>
+      <h2 className={`${s.socialsTitle} ${s.title}`}>Соцмережі</h2>
+      <ul className={s.socialsList}>
+        {data_socials?.socials.map(({ urlImg, desc, alt }) => (
+          <li className={s.socialsItem}>
+            <a href="#" className={s.socialLink}>
+              <img src={urlImg} alt={alt} className={s.socialIcon} />
+              <p className={s.socialSubscripers}>{desc}</p>
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );
