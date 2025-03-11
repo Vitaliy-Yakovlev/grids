@@ -1,0 +1,41 @@
+.post > a {
+  position: relative;
+  color: var(--common-white);
+}
+
+.overlay {
+  border-radius: 0px 0px 16px 16px;
+  background-color: rgba(18, 18, 22, 0.5);
+  padding: 12px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .overlay {
+    padding: 24px 48px;
+  }
+}
+
+.postTitle {
+  color: var(--common-white);
+  font-family: var(--common-font);
+}
+
+.subTitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .subTitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
+}

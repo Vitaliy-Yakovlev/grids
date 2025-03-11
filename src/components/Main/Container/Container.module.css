@@ -1,0 +1,10 @@
+.main {
+  background-color: var(--common-white);
+  padding-bottom: 96px;
+}
+
+.container {
+  max-width: 1128px;
+  margin: auto;
+  padding: 0 16px;
+}

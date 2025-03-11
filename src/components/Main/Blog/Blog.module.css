@@ -1,0 +1,17 @@
+.blogLink {
+  color: var(--common-black);
+}
+
+.blogTitle {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 12px;
+}
+
+.blogText {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}

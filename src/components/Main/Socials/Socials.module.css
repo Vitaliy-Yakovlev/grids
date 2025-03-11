@@ -1,0 +1,38 @@
+.socialsTitle {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 24px;
+}
+.socialLink {
+  padding: 8px;
+  color: var(--common-black, #2f2f37);
+  border-radius: 16px;
+  font-family: var(--common-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.socialsItem:nth-child(1) .socialLink {
+  background-color: var(--navy);
+}
+
+.socialsItem:nth-child(2) .socialLink {
+  background-color: var(--pink);
+}
+
+.socialsItem:nth-child(3) .socialLink {
+  background-color: var(--scarlet);
+}
+
+.socialsItem:nth-child(4) .socialLink {
+  background-color: var(--turquoise);
+}
+
+.socialsItem:nth-child(5) .socialLink {
+  background-color: var(--yellow);
+}
+
+.socialsItem:nth-child(6) .socialLink {
+  background-color: var(--lilac);
+}
