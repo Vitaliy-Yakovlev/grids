@@ -5,7 +5,7 @@ const Blog = ({}) => {
     <ul className={s.blog}>
       <li className={s.blogItem}>
         <a href="#" className={s.blogLink}>
-          <img src="src/img/1.png" alt="cat" className={s.blogPhoto} />
+          <img src="/img/1.png" alt="cat" className={s.blogPhoto} />
           <div className={s.wrapper}>
             <h2 className={`${s.blogTitle} ${s.subTitle}`}>Забавні факти про котів, які вас здивують</h2>
             <p className={s.blogText}>
@@ -16,7 +16,7 @@ const Blog = ({}) => {
       </li>
       <li className={s.blogItem}>
         <a href="#" className={s.blogLink}>
-          <img src="src/img/2.png" alt="cats" className={s.blogPhoto} />
+          <img src="/img/2.png" alt="cats" className={s.blogPhoto} />
           <div className={s.wrapper}>
             <h2 className={`${s.blogTitle} ${s.subTitle}`}>Найпопулярніші породи котів: який кіт підходить вам?</h2>
             <p className={s.blogText}>
@@ -28,7 +28,7 @@ const Blog = ({}) => {
       </li>
       <li className={s.blogItem}>
         <a href="#" className={s.blogLink}>
-          <img src="src/img/4.png" alt="red-cat" className={s.blogPhoto} />
+          <img src="/img/4.png" alt="red-cat" className={s.blogPhoto} />
           <div className={s.wrapper}>
             <h2 className={`${s.blogTitle} ${s.subTitle}`}>
               Як піклуватися про вашого пухнастого друга: догляд за котом
@@ -42,7 +42,7 @@ const Blog = ({}) => {
       </li>
       <li className={s.blogItem}>
         <a href="#" className={s.blogLink}>
-          <img src="src/img/3.png" alt="red-cat" className={s.blogPhoto} />
+          <img src="/img/3.png" alt="red-cat" className={s.blogPhoto} />
           <div className={s.wrapper}>
             <h2 className={`${s.blogTitle} ${s.subTitle}`}>Історія та культурна значущість котів в усьому світ</h2>
             <p className={s.blogText}>
