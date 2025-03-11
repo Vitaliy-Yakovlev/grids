@@ -16,7 +16,7 @@ const Posts = ({}) => {
       </li>
       <li className={s.post}>
         <a href="#">
-          <img src="/img/picture_2.png" alt="scary kitten" className={s.postImg} />
+          <img src="src/img/picture_2.png" alt="scary kitten" className={s.postImg} />
           <div className={s.overlay}>
             <h2 className={`${s.postTitle} ${s.subTitle}`}>
               Коти в літературі та мистецтві: від Егіпетських богів до сучасних майстрів
