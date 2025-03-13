@@ -28,16 +28,19 @@
   "posts": [
     {
       "urlImg": "../img/picture_1.png",
+      "urlIngSmall": "../img/picture_1_small.png",
       "alt": "kitten",
       "desc": "Коти та їхні чудові навички: від полювання до загадкових здібностей"
     },
     {
       "urlImg": "../img/picture_2.png",
+      "urlIngSmall": "../img/picture_2.png",
       "alt": "scary kitten",
       "desc": "Коти в літературі та мистецтві: від Егіпетських богів до сучасних майстрів"
     },
     {
       "urlImg": "../img/picture_3.png",
+      "urlIngSmall": "../img/picture_3.png",
       "alt": "cat",
       "desc": "Котячі породи для активних власників: як вибрати компаньйона"
     }
