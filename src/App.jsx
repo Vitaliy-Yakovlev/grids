@@ -1,6 +1,6 @@
-import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 import Blog from './components/Main/Blog/Blog';
 import Container from './components/Main/Container/Container';
 import Posts from './components/Main/Posts/Posts';
@@ -9,17 +9,17 @@ import Socials from './components/Main/Socials/Socials';
 
 function App() {
   return (
-    <>
+    <Container>
       <Header />
-      <Container>
+      <Main>
         <Posts />
         <Section>
           <Blog />
           <Socials />
         </Section>
-      </Container>
+      </Main>
       <Footer />
-    </>
+    </Container>
   );
 }
 
