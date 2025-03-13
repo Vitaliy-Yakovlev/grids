@@ -9,17 +9,19 @@ import Socials from './components/Main/Socials/Socials';
 
 function App() {
   return (
-    <Container>
+    <>
       <Header />
       <Main>
-        <Posts />
-        <Section>
-          <Blog />
-          <Socials />
-        </Section>
+        <Container>
+          <Posts />
+          <Section>
+            <Blog />
+            <Socials />
+          </Section>
+        </Container>
       </Main>
       <Footer />
-    </Container>
+    </>
   );
 }
 

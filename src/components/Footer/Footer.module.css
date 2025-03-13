@@ -3,6 +3,14 @@
   background-color: var(--blue-light);
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  column-gap: 8px;
+  align-items: center;
+  padding: 0px 16px;
+}
+
 .logo {
   display: block;
   width: 24px;
