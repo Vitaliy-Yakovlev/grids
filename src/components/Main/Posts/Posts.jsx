@@ -16,7 +16,7 @@ const Posts = ({}) => {
     <ul className={s.posts}>
       {data_post?.posts.map(({ urlImg, desc, urlIngSmall }) => {
         return (
-          <li className={s.post}>
+          <li className={s.post} key={desc}>
             <a href="#">
               <img src={resizeWindow >= 768 ? urlImg : urlIngSmall} alt="kitten" className={s.postImg} />
               <div className={s.overlay}>

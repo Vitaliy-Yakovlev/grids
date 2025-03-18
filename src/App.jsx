@@ -6,6 +6,7 @@ import Container from './components/Main/Container/Container';
 import Posts from './components/Main/Posts/Posts';
 import Section from './components/Main/Section/Section';
 import Socials from './components/Main/Socials/Socials';
+import Video from './components/Main/Video/Video';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Section>
             <Blog />
             <Socials />
+            <Video />
           </Section>
         </Container>
       </Main>

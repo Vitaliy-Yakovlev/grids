@@ -5,7 +5,7 @@ const Blog = ({}) => {
   return (
     <ul className={s.blog}>
       {data_blog?.blog.map(({ urlImg, desc, title, alt }) => (
-        <li className={s.blogItem}>
+        <li className={s.blogItem} key={title}>
           <a href="#" className={s.blogLink}>
             <img src={urlImg} alt={alt} className={s.blogPhoto} />
             <div className={s.wrapper}>

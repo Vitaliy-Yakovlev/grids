@@ -1,5 +1,29 @@
+.blog {
+  display: grid;
+  gap: 48px;
+}
+
 .blogLink {
+  display: grid;
+  gap: 20px;
   color: var(--common-black);
+}
+
+@media screen and (min-width: 768px) {
+  .blog {
+    gap: 36px;
+  }
+
+  .blogLink {
+    grid-template-columns: 264px 1fr;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .blog {
+    grid-area: b;
+  }
 }
 
 .blogTitle {

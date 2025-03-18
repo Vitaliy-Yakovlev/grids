@@ -3,7 +3,21 @@
   font-family: var(--common-font);
   margin-bottom: 24px;
 }
+
+.socialsList {
+  display: grid;
+  /* column-gap: 8px;
+  row-gap: 24px; */
+  gap: 24px 8px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .socialLink {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  align-items: center;
+  justify-items: center;
+
   padding: 8px;
   color: var(--common-black, #2f2f37);
   border-radius: 16px;
@@ -11,6 +25,18 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 768px) {
+  .socialsList {
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .socials {
+    grid-area: s;
+  }
 }
 
 .socialsItem:nth-child(1) .socialLink {

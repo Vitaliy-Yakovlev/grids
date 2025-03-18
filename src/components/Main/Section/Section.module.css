@@ -1,1 +1,11 @@
+.longread {
+  display: grid;
+  gap: 96px;
+}
 
+@media screen and (min-width: 1440px) {
+  .longread {
+    grid-template-areas: 'b b s' 'b b s' 'b b v' 'b b .';
+    gap: 60px 24px;
+  }
+}

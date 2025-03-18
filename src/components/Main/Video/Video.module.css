@@ -1,0 +1,11 @@
+.videoTitle {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .video {
+    grid-area: v;
+  }
+}
