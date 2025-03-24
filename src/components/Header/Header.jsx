@@ -9,7 +9,7 @@ const Header = ({}) => {
     <header className={s.header}>
       <Container>
         <div className={s.container}>
-          <img src={`/img/${logo}.svg`} alt="cat" className={s.logo} />
+          <img src={`/img/${logo ? logo : 'cats'}.svg`} alt="cat" className={s.logo} />
           <NavLink className={s.label} to="/cats">
             cats
           </NavLink>

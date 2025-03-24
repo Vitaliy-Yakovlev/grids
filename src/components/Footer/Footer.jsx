@@ -9,7 +9,7 @@ const Footer = ({}) => {
     <footer className={s.footer}>
       <Container>
         <div className={s.container}>
-          <img src={`/img/${namePage}.svg`} alt="cat" className={s.logo} />
+          <img src={`/img/${namePage ? namePage : 'cats'}.svg`} alt="cat" className={s.logo} />
           <h2 className={s.label}>{namePage}</h2>
         </div>
       </Container>
