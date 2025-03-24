@@ -44,6 +44,10 @@ a {
   display: block;
 }
 
+a.active {
+  color: var(--orange);
+}
+
 ul {
   list-style: none;
 }

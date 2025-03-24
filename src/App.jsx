@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
@@ -13,14 +14,25 @@ function App() {
     <>
       <Header />
       <Main>
-        <Container>
-          <Posts />
-          <Section>
-            <Blog />
-            <Socials />
-            <Video />
-          </Section>
-        </Container>
+        <Routes>
+          <Route
+            path="/cats"
+            element={
+              <Container>
+                <Posts />
+                <Section>
+                  <Blog />
+                  <Socials />
+                  <Video />
+                </Section>
+              </Container>
+            }
+          />
+
+          <Route path="/newspaper" element={<Container></Container>} />
+
+          <Route path="/newscasts" element={<Container></Container>} />
+        </Routes>
       </Main>
       <Footer />
     </>
